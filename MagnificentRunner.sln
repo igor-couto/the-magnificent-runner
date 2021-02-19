@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnificentRunner", "MagnificentRunner\MagnificentRunner.csproj", "{2F100C7E-FB64-45A7-B1EA-1F3C2D95099F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnificentRunnerTest", "MagnificentRunnerTest\MagnificentRunnerTest.csproj", "{70838CAD-1F94-443F-BD3B-CEE1799AC672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F100C7E-FB64-45A7-B1EA-1F3C2D95099F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F100C7E-FB64-45A7-B1EA-1F3C2D95099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F100C7E-FB64-45A7-B1EA-1F3C2D95099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F100C7E-FB64-45A7-B1EA-1F3C2D95099F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70838CAD-1F94-443F-BD3B-CEE1799AC672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70838CAD-1F94-443F-BD3B-CEE1799AC672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70838CAD-1F94-443F-BD3B-CEE1799AC672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70838CAD-1F94-443F-BD3B-CEE1799AC672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FAA86F7-9D38-44B2-8D0C-724C92AB4500}
+	EndGlobalSection
+EndGlobal
