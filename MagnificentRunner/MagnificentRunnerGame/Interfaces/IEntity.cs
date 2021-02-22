@@ -1,12 +1,9 @@
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 
-namespace MagnificentRunnerGame.Interfaces
+namespace MagnificentRunner.MagnificentRunnerGame.Interfaces
 {
-    public interface IEntity
+    public interface IEntity : IDrawable
     {
-        int DepthOrder { get; set; }
         void Update(GameTime gameTime);
-        void Draw(SpriteBatch spriteBatch, GameTime gameTime);
     }
 }

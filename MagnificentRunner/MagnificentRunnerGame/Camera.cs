@@ -42,17 +42,17 @@ namespace MagnificentRunnerGame
             else
                 moveSpeed = 10;
 
-            if (InputManager.Instance.KeyDown(Keys.Up))
-                cameraMovement.Y = -moveSpeed;
+            //if (InputManager.Instance.KeyDown(Keys.Up))
+            //    cameraMovement.Y = -moveSpeed;
 
-            if (InputManager.Instance.KeyDown(Keys.Down))
-                cameraMovement.Y = moveSpeed;
+            //if (InputManager.Instance.KeyDown(Keys.Down))
+            //    cameraMovement.Y = moveSpeed;
 
-            if (InputManager.Instance.KeyDown(Keys.Left))
-                cameraMovement.X = -moveSpeed;
+            //if (InputManager.Instance.KeyDown(Keys.Left))
+            //    cameraMovement.X = -moveSpeed;
 
-            if (InputManager.Instance.KeyDown(Keys.Right))
-                cameraMovement.X = moveSpeed;
+            //if (InputManager.Instance.KeyDown(Keys.Right))
+            //    cameraMovement.X = moveSpeed;
 
             previousMouseWheelValue = currentMouseWheelValue;
             currentMouseWheelValue = Mouse.GetState().ScrollWheelValue;

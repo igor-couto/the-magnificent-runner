@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using MagnificentRunnerGame.Interfaces;
+using MagnificentRunner.MagnificentRunnerGame.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 

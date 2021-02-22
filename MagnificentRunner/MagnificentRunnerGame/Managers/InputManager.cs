@@ -1,4 +1,5 @@
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace MagnificentRunnerGame.Managers
 {
@@ -19,7 +20,6 @@ namespace MagnificentRunnerGame.Managers
         public bool IsExiting {get; private set;} = false;
         public KeyboardState PreviousKeyboardState { get; private set; }
         public KeyboardState CurrentKeyboardState { get; private set; }
-
 
         public void Update()
         {

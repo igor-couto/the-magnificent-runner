@@ -22,7 +22,7 @@ namespace MagnificentRunnerGame.Graphics
             Width = width;
             Height = height;
 
-            _rectangle = new Rectangle(x, y, width,height);
+            _rectangle = new Rectangle(x, y, width, height);
 
             if (tintColor != null)
                 TintColor = tintColor.Value;
